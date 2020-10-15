@@ -1,0 +1,9 @@
+.NavItems {
+   background-color: cadetblue;
+   list-style: none;
+   display: flex;
+   flex-flow: row;
+   align-items: right;
+   height: 100%;
+   
+}
