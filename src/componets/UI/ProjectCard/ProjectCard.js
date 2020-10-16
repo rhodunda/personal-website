@@ -4,13 +4,14 @@ import styles from './ProjectCard.module.css'
 
 const ProjectCard = (props) => (
 <div className={styles.coupon}>
+<h2>Project</h2>
 <div className={styles.container}>
-    <h3>name</h3>
+<h3>{props.name}</h3>
 </div>
-<img src="" alt="Avator" />
+<img src={props.img} alt="Avator" />
 <div className={styles.container} >
-    <h2>text here</h2>
-    <p>text also here</p>
+    
+<p>{props.descripton}</p>
 </div>
 </div>
 

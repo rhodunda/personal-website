@@ -1,14 +1,29 @@
 import React from 'react'
 import Card from '../UI/ProjectCard/ProjectCard'
-import Aux from '../../hoc/Aux/Aux'
 
+
+
+
+const projects = [
+    {name: 'The Mix', img: 'file path', description: 'bah bah bah bah'},
+    {name: 'Burger Builder', img: 'file path', description: 'bah bah bah bah'},
+    {name: 'Video Game Trader', img: 'file path', description: 'bah bah bah bah'}
+]
 
 const ProjectCards = () => (
-    <Aux>
-            <Card>The Mix</Card>
-            <Card>Burger Builder</Card>
-            <Card>Video Game Trader</Card>
-    </Aux>
+
+    <div>
+        {projects.map(pro => (
+            <Card
+            key={pro.name}
+            name={pro.name}
+            img={pro.img}
+            descripton={pro.description}
+            />
+        ))}
+            
+    </div>
+    
     
 )
 
