@@ -3,6 +3,7 @@ import Aux from '../Aux/Aux'
 import styles from './Layout.module.css'
 import Toolbar from '../../componets/Toolbar/Toolbar'
 import ProjectCards from '../../componets/ProjectCards/ProjectCards'
+import Blogs from '../../componets/Blogs/Blogs'
 
 
 class Layout extends Component {
@@ -12,6 +13,7 @@ class Layout extends Component {
                 <Toolbar/>
                 <main className={styles.main}>main
                 <ProjectCards/>
+                <Blogs/>
                 
                 
                 
