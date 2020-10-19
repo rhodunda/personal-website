@@ -4,6 +4,7 @@ import styles from './Layout.module.css'
 import Toolbar from '../../componets/Toolbar/Toolbar'
 import ProjectCards from '../../componets/ProjectCards/ProjectCards'
 import Blogs from '../../componets/Blogs/Blogs'
+import About from '../../componets/About/About'
 
 
 class Layout extends Component {
@@ -14,6 +15,7 @@ class Layout extends Component {
                 <main className={styles.main}>main
                 <ProjectCards/>
                 <Blogs/>
+                <About/>
                 
                 
                 
