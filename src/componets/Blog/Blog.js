@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Blog.module.css'
+// import styles from './Blog.module.css'
 
 const Blog = () => (
 <div>design the blog cards here</div>
