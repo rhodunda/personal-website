@@ -1,9 +1,13 @@
 import React from 'react'
+import BlogCards from '../Blog/BlogCards'
+import Aux from '../../hoc/Aux/Aux'
 
-
-const Blogs = () => (
-
- <div>blogs div</div>
+const Blogs = (props) => (
+<Aux>
+<BlogCards/>
+<BlogCards/>
+<BlogCards/>
+</Aux>
 )
 
 
