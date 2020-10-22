@@ -13,6 +13,6 @@ const navigationItems = () => (
     </ul>
 )
 
-s
+
 export default navigationItems
 

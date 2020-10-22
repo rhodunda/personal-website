@@ -5,6 +5,7 @@ import Toolbar from '../../componets/Toolbar/Toolbar'
 import ProjectCards from '../../componets/ProjectCards/ProjectCards'
 import Blogs from '../../componets/Blogs/Blogs'
 import About from '../../componets/About/About'
+import Contact from '../../componets/Contact/Contact'
 
 
 class Layout extends Component {
@@ -16,6 +17,7 @@ class Layout extends Component {
                 <ProjectCards/>
                 <Blogs/>
                 <About/>
+                <Contact/>
                 
                 
                 
