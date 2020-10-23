@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './ProjectCards.module.css'
 import Card from '../UI/ProjectCard/ProjectCard'
 
 
@@ -12,7 +13,7 @@ const projects = [
 
 const ProjectCards = () => (
 
-    <div>
+    <div className={styles.projects}>
         {projects.map(pro => (
             <Card
             key={pro.name}

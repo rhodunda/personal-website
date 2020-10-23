@@ -1,3 +1,5 @@
 .main {
     background-color: darkgreen;
+    justify-content: flex-start;
+    align-content: space-around;
 }

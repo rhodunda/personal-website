@@ -6,6 +6,7 @@ import ProjectCards from '../../componets/ProjectCards/ProjectCards'
 import Blogs from '../../componets/Blogs/Blogs'
 import About from '../../componets/About/About'
 import Contact from '../../componets/Contact/Contact'
+import GitHub from '../../componets/Github/GitHub'
 
 
 class Layout extends Component {
@@ -18,9 +19,7 @@ class Layout extends Component {
                 <Blogs/>
                 <About/>
                 <Contact/>
-                
-                
-                
+                <GitHub/>
                 </main>
             </Aux>
         )

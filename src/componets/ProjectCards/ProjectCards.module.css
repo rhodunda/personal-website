@@ -1,0 +1,10 @@
+.projects {
+    align-content: space-around;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    flex-grow: 0;
+
+
+}

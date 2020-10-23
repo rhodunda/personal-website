@@ -1,12 +1,17 @@
 .coupon {
-    border: 5px dotted #bbb; /* Dotted border */
+    border: 5px dotted #bbb; 
     width: 80%;
-    border-radius: 15px; /* Rounded border */
-    margin: 0 auto; /* Center the coupon */
+    border-radius: 15px; 
+    margin: 15px;
     max-width: 600px;
+    flex-direction: row;
+    margin-right: auto;
+    flex-grow: 0;
+  
   }
   
   .container {
-    padding: 2px 16px;
+    padding: px 16px;
     background-color: #f1f1f1;
+    flex-direction: row;
   }
