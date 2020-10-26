@@ -2,11 +2,11 @@
     border: 5px dotted #bbb; 
     width: 80%;
     border-radius: 15px; 
-    margin: 15px;
-    max-width: 600px;
-    flex-direction: row;
-    margin-right: auto;
-    flex-grow: 0;
+    max-width: 500px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+
+    /* justify-content: space-around; */
   
   }
   
