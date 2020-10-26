@@ -1,5 +1,17 @@
 .main {
-    background-color: darkgreen;
+    background-color: blue;
     justify-content: flex-start;
     align-content: space-around;
+    margin-bottom: 75px;
+}
+
+.format {
+    align-content: space-around;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    /* margin: 15px; */
+    flex-wrap: wrap;
+    margin-top: 50px ;
+
 }

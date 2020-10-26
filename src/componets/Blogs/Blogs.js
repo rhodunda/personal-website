@@ -1,13 +1,14 @@
 import React from 'react'
+import styles from './Blogs.module.css'
 import BlogCards from '../Blog/BlogCards'
-import Aux from '../../hoc/Aux/Aux'
+
 
 const Blogs = (props) => (
-<Aux>
+<div className={styles.Blog}>
 <BlogCards/>
 <BlogCards/>
 <BlogCards/>
-</Aux>
+</div>
 )
 
 

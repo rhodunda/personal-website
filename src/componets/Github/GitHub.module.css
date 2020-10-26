@@ -2,11 +2,15 @@
     border: 5px dotted #bbb; 
     width: 80%;
     border-radius: 15px; 
-    margin: 0 auto; 
-    max-width: 600px;
+    max-width: 500px;
+    margin-bottom: 45px;
+    margin-left: 10px;
+    background-color: whitesmoke
   }
   
   .GitHubSec {
-    padding: 2px 16px;
+    padding: px 16px;
     background-color: #f1f1f1;
+    flex-direction: row;
   }
+

@@ -8,7 +8,8 @@ import Card from '../UI/ProjectCard/ProjectCard'
 const projects = [
     {name: 'The Mix', img: 'file path', description: 'bah bah bah bah'},
     {name: 'Burger Builder', img: 'file path', description: 'bah bah bah bah'},
-    {name: 'Video Game Trader', img: 'file path', description: 'bah bah bah bah'}
+    {name: 'Video Game Trader', img: 'file path', description: 'bah bah bah bah'},
+    {name: 'CLI movie project', img: 'file path', description: 'bah bah bah bah'}
 ]
 
 const ProjectCards = () => (
