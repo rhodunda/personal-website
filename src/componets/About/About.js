@@ -7,7 +7,7 @@ const About = () => (
         <h4 className={styles.AboutSec}>name</h4>
         <h4>email</h4>
         <p className={styles.AboutSec}>skills</p>
-        <h4>number</h4>
+        <h4>intrest</h4>
     </div>
 )
 

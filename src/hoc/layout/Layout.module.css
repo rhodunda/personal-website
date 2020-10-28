@@ -1,8 +1,9 @@
 .main {
-    background-color: blue;
+    background: linear-gradient(to bottom, #1B4F72 0%, #000000 100%);
     justify-content: flex-start;
     align-content: space-around;
     margin-bottom: 75px;
+    padding-bottom: 75px;
 }
 
 .format {
@@ -13,5 +14,4 @@
     /* margin: 15px; */
     flex-wrap: wrap;
     margin-top: 50px ;
-
 }

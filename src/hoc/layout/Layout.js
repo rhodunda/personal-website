@@ -13,9 +13,9 @@ import Picture from '../../componets/Picture/Pictures'
 class Layout extends Component {
     render () {
         return(
-            <Aux>
+            <div className={styles.main}>
                 <Toolbar/>
-                <main className={styles.main}>main
+                <main >
                 <ProjectCards/>
                 <Blogs/>
                 <div className={styles.format}>
@@ -25,7 +25,7 @@ class Layout extends Component {
                 </div>
                 <About/>
                 </main>
-            </Aux>
+            </div>
         )
     }
 }

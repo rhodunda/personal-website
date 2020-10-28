@@ -2,10 +2,8 @@
     align-content: space-around;
     padding-top: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     /* margin: 15px; */
     flex-wrap: wrap;
     margin-top: 50px ;
-
-
 }

@@ -1,13 +1,19 @@
 .NavItems {
-   background-color: cadetblue;
+   /* background: linear-gradient(to bottom, #000000 0%, #EE7221    100%); */
+   background-color: black;
    list-style: none;
    display: flex;
    flex-flow: row;
    align-items: right;
    height: 100%;
-   
+   border: none;
 }
 
 .name {
    font-family: URW Chancery L, cursive;
+   color: #E6C449;
+}
+
+.navColor {
+   color: #E6C449;
 }

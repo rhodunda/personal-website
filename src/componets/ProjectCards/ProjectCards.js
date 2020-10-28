@@ -9,7 +9,7 @@ const projects = [
     {name: 'The Mix', img: 'file path', description: 'bah bah bah bah'},
     {name: 'Burger Builder', img: 'file path', description: 'bah bah bah bah'},
     {name: 'Video Game Trader', img: 'file path', description: 'bah bah bah bah'},
-    {name: 'CLI movie project', img: 'file path', description: 'bah bah bah bah'}
+    {name: 'Coming Soon', img: 'file path', description: 'bah bah bah bah'}
 ]
 
 const ProjectCards = () => (
