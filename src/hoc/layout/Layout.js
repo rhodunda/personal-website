@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Aux from '../Aux/Aux'
+// import Aux from '../Aux/Aux'
 import styles from './Layout.module.css'
 import Toolbar from '../../componets/Toolbar/Toolbar'
 import ProjectCards from '../../componets/ProjectCards/ProjectCards'
