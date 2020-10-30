@@ -9,7 +9,7 @@ import ComingSoon from '../../assets/images/Coming_Soon.png'
 
 
 const projects = [
-    {name: 'The Mix', img: TheMixPicture , description: 'bah bah bah bah'},
+    {name: 'The Mix', img: TheMixPicture , description: 'bah bah bah bah' },
     {name: 'Burger Builder', img: BurgerBuilderPicture, description: 'bah bah bah bah'},
     {name: 'Video Game Trader', img: TradeTradeCityPicture, description: 'bah bah bah bah'},
     {name: 'Coming Soon', img: ComingSoon, description: 'bah bah bah bah'}
