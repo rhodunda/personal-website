@@ -4,9 +4,12 @@ import Card from '../UI/ProjectCard/ProjectCard'
 
 
 
+const state ={
+    
+}
 
 const projects = [
-    {name: 'The Mix', img: 'file path', description: 'bah bah bah bah'},
+    {name: 'The Mix', img: '../../assets/images/The_Mix.png', description: 'bah bah bah bah'},
     {name: 'Burger Builder', img: 'file path', description: 'bah bah bah bah'},
     {name: 'Video Game Trader', img: 'file path', description: 'bah bah bah bah'},
     {name: 'Coming Soon', img: 'file path', description: 'bah bah bah bah'}

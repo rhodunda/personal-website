@@ -1,6 +1,6 @@
 .NavItems {
-   /* background: linear-gradient(to bottom, #000000 0%, #EE7221    100%); */
-   background-color: black;
+   background: linear-gradient(to bottom, #000000 0%, #2B2C2D    100%);
+   background-color: #2B2C2D;
    list-style: none;
    display: flex;
    flex-flow: row;
