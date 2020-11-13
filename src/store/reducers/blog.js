@@ -28,6 +28,7 @@ const reducer = (state = initialState, action) => {
         case actionTypes.FETCH_BLOGS_START: return fetchBlogStart(state, action);
         case actionTypes.FETCH_BLOGS_SUCCESS: return fetchBlogSuccess(state, action);
         case actionTypes.FETCH_BLOGS_FAIL: return fetchBlogFail(state, action)
+        default: return state
     }
 }
 
