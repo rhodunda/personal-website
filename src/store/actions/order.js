@@ -22,3 +22,23 @@ export const fetchBlogsStart = (  ) => {
         type: actionTypes.FETCH_BLOGS_START
     }
 }
+
+export const fetchBlogs = () => {
+    return dispatch => {
+        dispatch(fetchBlogsStart())
+        axios.get('add URL')
+        .then (res => {
+            const fetchedBlogs = []
+            for (let key in res.data) {
+                fetchedBlogs.push( {
+                    ...res.data[key],
+                    id: key
+                })
+            }
+            dispatch(fetchBlogsSuccess(fetchedBlogs))
+        })
+        .catch( err => {
+            dispatch(fetchBlogsFail(err))
+        })
+    }
+}
