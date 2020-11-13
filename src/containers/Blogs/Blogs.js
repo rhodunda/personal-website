@@ -17,3 +17,13 @@ class Blogs extends Component {
         )
     }
 }
+
+const mapStateToProps = state => {
+    return {
+        blog: state.blog.blogs,
+        loading: state.blog.loading
+    }
+}
+
+
+export default connect (mapStateToProps)
