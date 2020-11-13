@@ -1,3 +1,3 @@
 export {
-    FetchBlogs
+    fetchBlogs
 } from './blog'

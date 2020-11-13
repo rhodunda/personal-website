@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import { connect } from 'react-redux'
 import * as actions from '../../store/actions/index'
 import Spinner from '../../componets/Spinner/Spinner'
@@ -6,17 +6,19 @@ import Spinner from '../../componets/Spinner/Spinner'
 
 class Blogs extends Component {
 
+    componentDidMount() {
+        this.props.onFetchBlogs()
+    }
+
     render() {
-        // let blog = <Spinner/>
-        // if (!this.props.loading) {
-        //     blog = <div>working</div>
-        // }
-
-
+        let blog = <Spinner/>
+        if (!this.props.loading) {
+            blog = <div>working</div>
+        }
 
         return(
             <div>
-                 <Spinner/>
+                {blog}
             </div>
            
         )
@@ -32,7 +34,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        onFetchBlogs: () => dispatch (actions.onFetchBlogs())
+        onFetchBlogs: () => dispatch (actions.fetchBlogs())
     }
 }
 
