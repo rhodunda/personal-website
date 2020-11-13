@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Blogs.module.css'
 import BlogCards from '../Blog/BlogCards'
+// import axios from 'axois'
 
 
 const Blogs = (props) => (
