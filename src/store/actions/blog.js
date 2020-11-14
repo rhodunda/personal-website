@@ -28,7 +28,7 @@ export const fetchBlogs = () => {
         dispatch(fetchBlogsStart())
         axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@rhodunda')
         .then (res => {
-        
+            console.log(res)
             const fetchedBlogs = []
             for (let key in res.data.items) {
                 fetchedBlogs.push( {

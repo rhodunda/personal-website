@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './ProjectCard.module.css'
+import Button from '../../UI/Button/Button'
 
 
 const ProjectCard = (props) => (
@@ -8,10 +9,10 @@ const ProjectCard = (props) => (
     <div className={styles.container}></div> 
     <h3 className={styles.container}>{props.name}</h3>
 
-    <img className={styles.container} src={props.img} alt="Avator" />
+    <img src={props.img} alt="Avator" className={styles.projectImg} />
     <div className={styles.container}></div> 
-    <p className={styles.container}>{props.descripton}</p>
-        
+    <p className={styles.container}>{props.descripton}</p>  
+    <Button/>
 </div>
 
 )

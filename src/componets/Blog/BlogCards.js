@@ -9,8 +9,8 @@ return (
 <div className={styles.Blog}>
     <div className={styles.idTab}>Blogs</div>
     <div className={styles.BlogDes}>{props.title}</div>
-    <img src={props.img} alt="Avator" />
-    <div className={styles.BlogDes}>{props.description}</div>
+    <img src={props.img} alt="Avator" className={styles.ImgBlog} />
+    <div className={styles.BlogDes}>Link to Blog</div>
 </div>
 )
 }
