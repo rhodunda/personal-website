@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { connect } from 'react-redux'
 import * as actions from '../../store/actions/index'
 import Spinner from '../../componets/Spinner/Spinner'
+import styles from './Blogs.module.css'
+import BlogCards from '../../componets/Blog/BlogCards'
 
 
 class Blogs extends Component {
@@ -13,14 +15,22 @@ class Blogs extends Component {
     render() {
         let blog = <Spinner/>
         if (!this.props.loading) {
-            blog = <div>working</div>
-        }
 
+        blog = this.props.blog.map( blog => (
+                <BlogCards
+                    key={blog.key}
+                    title={blog.title}
+                    description={blog.description}
+                    img={blog.thumbnail}
+                    url={blog.url}
+                />
+                ))
+        }
+   
         return(
-            <div>
+            <div className={styles.Blog}>
                 {blog}
-            </div>
-           
+            </div>  
         )
     }
 }
@@ -38,4 +48,4 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect (mapStateToProps, mapDispatchToProps)(Blogs)
+export default connect(mapStateToProps, mapDispatchToProps)(Blogs)

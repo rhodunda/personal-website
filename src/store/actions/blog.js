@@ -26,15 +26,17 @@ export const fetchBlogsStart = (  ) => {
 export const fetchBlogs = () => {
     return dispatch => {
         dispatch(fetchBlogsStart())
-        axios.get('add URL')
+        axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@rhodunda')
         .then (res => {
+        
             const fetchedBlogs = []
-            for (let key in res.data) {
+            for (let key in res.data.items) {
                 fetchedBlogs.push( {
-                    ...res.data[key],
+                    ...res.data.items[key],
                     id: key
                 })
             }
+            
             dispatch(fetchBlogsSuccess(fetchedBlogs))
         })
         .catch( err => {
