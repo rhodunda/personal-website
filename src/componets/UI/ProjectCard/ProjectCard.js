@@ -12,7 +12,7 @@ const ProjectCard = (props) => (
     <img src={props.img} alt="Avator" className={styles.projectImg} />
     <div className={styles.container}></div> 
     <p className={styles.container}>{props.descripton}</p>  
-    <Button/>
+    <Button>Link to Website</Button>
 </div>
 
 )

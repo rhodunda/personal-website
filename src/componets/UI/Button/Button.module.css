@@ -1,12 +1,14 @@
 .Button {
-    background-color: transparent;
+    /* background-color: transparent; */
     border: none;
-    color: white;
     outline: none;
     cursor: pointer;
     font: inherit;
     padding: 10px;
     margin: 10px;
     font-weight: bold;
-    color: chartreuse;
+    background-color: chartreuse;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
