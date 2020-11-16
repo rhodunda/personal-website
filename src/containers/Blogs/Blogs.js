@@ -6,6 +6,7 @@ import styles from './Blogs.module.css'
 import BlogCards from '../../componets/Blog/BlogCards'
 
 
+
 class Blogs extends Component {
 
     componentDidMount() {
