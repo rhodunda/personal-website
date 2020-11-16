@@ -23,7 +23,7 @@ class Blogs extends Component {
                     title={blog.title}
                     description={blog.description}
                     img={blog.thumbnail}
-                    url={blog.url}
+                    url={blog.link}
                 />
                 ))
         }

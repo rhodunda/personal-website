@@ -10,7 +10,8 @@ return (
     <div className={styles.idTab}>Blogs</div>
     <div className={styles.BlogDes}>{props.title}</div>
     <img src={props.img} alt="Avator" className={styles.ImgBlog} />
-    <Button>Link to Blog</Button>
+    <Button
+    link={props.url}>Link to Blog</Button>
 </div>
 )
 }

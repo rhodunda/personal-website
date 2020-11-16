@@ -17,7 +17,7 @@ return (
         <div className={styles.container}></div> 
         <p className={styles.container}>{props.descripton}</p>  
         <Button 
-        link={props.changed}
+        link={props.changed} 
         disabled={!props.disabledCheck}
          >Link to Website</Button>
     </div>
