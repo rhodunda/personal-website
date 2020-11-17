@@ -13,19 +13,24 @@
     background-color: #000000;
     color: white;
     flex-direction: row;
-    width: 50%;
-    margin: auto;
+    width: 50%; 
+     margin: auto;
     padding: 3px;
+    
+  }
+
+  .profilePic {
+
+    flex-direction: row;
+    width: 50%; 
+    margin: auto;
+    justify-content: center;
+    /* width: 50%;
+    height: 50%;
+    padding-top: 20px; */
   }
 
 
 
-
- 
-  
-
-
-
- 
 
 
