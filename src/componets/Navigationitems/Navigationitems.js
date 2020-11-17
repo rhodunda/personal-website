@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Navigationitems.module.css'
-
+// import Logo from '../../assets/images/Logo.png'
 import NavigationItem from '../Navigationitem/NavigationItem'
 
 
@@ -10,6 +10,7 @@ const navigationItems = () => (
         <NavigationItem>Projects</NavigationItem>
         <NavigationItem>GitHub</NavigationItem>
         <NavigationItem>Contact</NavigationItem>
+        {/* <img src={Logo} alt="avatar"></img> */}
     </ul>
 )
 

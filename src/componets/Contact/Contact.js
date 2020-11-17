@@ -12,8 +12,8 @@ const Contact = () => (
 <div className={styles.ContactMain}>
     <div>Contact Info</div>
     <img src={ContactInfo.picture} alt="avator" className={styles.profilePic}></img>
-    <div className={styles.ContactSec}>{ContactInfo.number}</div>
-    <div className={styles.ContactSec}>{ContactInfo.email}</div>
+    <div className={styles.ContactSec}> Phone Number:  {ContactInfo.number}</div>
+    <div className={styles.ContactSec}> email: {ContactInfo.email}</div>
 </div>
     
 )
