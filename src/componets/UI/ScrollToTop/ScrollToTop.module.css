@@ -1,0 +1,19 @@
+
+
+.ScrollButton {
+ 
+        opacity: 0.3;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 5px;
+        border: none;
+}
+
+.ScrollButton:hover {
+    opacity: 1;
+}
+

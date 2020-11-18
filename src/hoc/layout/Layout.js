@@ -12,30 +12,6 @@ import Picture from '../../componets/Picture/Pictures'
 
 class Layout extends Component {
 
-    state = {
-        isScroll: false
-    }
-
-    componentDidMount() {
-        let scrollComponent = this;
-        document.addEventListener('scroll', function(e) {
-            scrollComponent.toggleVisibility()
-        })
-    }
-
-    topFunction = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        })
-    }
-    toggleVisibility() {
-     
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-             this.setState({isScroll: true})
-        }    
-        
-    }
     
     render() {
 
@@ -51,7 +27,6 @@ class Layout extends Component {
                     <Picture/>
                 </div>
                 <About/>
-                <button onClick={() => this.topFunction()} className={styles.scrollToTop ? this.state.isScroll : !styles.scrollToTopShow}>Top</button>
                 </main>
             </div>
         )

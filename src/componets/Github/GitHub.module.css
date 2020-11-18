@@ -7,6 +7,10 @@
     margin-left: 10px;
     background-color: #202020;
     color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #2E4053;
+    
   }
   
   .GitHubSec {

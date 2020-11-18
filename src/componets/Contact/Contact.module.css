@@ -1,31 +1,46 @@
 .ContactMain {
-    /* border: 5px solid #0000FF   ;  */
     width: 50%;
     border-radius: 15px; 
     max-width: 500px;
     margin-bottom: 75px;
     margin-left: 10px;
-    background-color: #202020;
-    color: white;
+    background-color: #1B4F72 ;
+    padding: 5px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #2E4053;
   }
   
   .ContactSec {
-    background-color: #000000;
+    background-color: #424949 ;
     color: white;
     flex-direction: row;
     width: 50%; 
      margin: auto;
     padding: 20px;
     margin-top: 30px;
-    
+    border-radius: 10px;
   }
 
   .profilePic {
     width: 200px;
     height: 200px;
-    padding-top: 20px;
-    padding-left: 150px;
+    margin-left: 150px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    border-color: #424949;
   }
+
+  .Idtab {
+    color: #239B56  ;
+    font-weight: bold;
+  }
+
+  /* .PhoneNumber {
+    display: flex;
+    flex-direction: column;
+  } */
 
 
 

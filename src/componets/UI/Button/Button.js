@@ -3,7 +3,7 @@ import styles from './Button.module.css'
 
 const button = (props) => (
     <div>
-    <a href={props.link} target="_blank" rel="noopener noreferrer">
+    <a href={props.link} target="_blank" rel="noopener noreferrer" className={styles.Link}>
     <button
     className={styles.Button}
     onClick={props.clicked}
