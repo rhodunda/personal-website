@@ -7,26 +7,48 @@
     margin-left: 10px;
     background-color:#202020;
     color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #2E4053;
 
   }
   
   .container {
-    background-color: #000000;
+    background-color: #424949;
     color: white;
     flex-direction: row;
     text-align: center;
-    width: 50%;
+    width: 80%;
     margin: auto;
     padding: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .idTab {
     color: #FF9900;
     padding: 0%;
-    margin: 0%;
+    margin: 5px;
   }
 
   .projectImg {
-    width: 500px;
+    width: 480px;
     height: 300px;
+    border-left: 10px;
+    border-right: 10px;
+    border-style: solid;
+    border-color: #202020;
+  }
+
+
+  .NamePlate {
+    background-color: #D4AC0D ;
+    color: white;
+    flex-direction: row;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }

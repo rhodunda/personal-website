@@ -10,7 +10,7 @@ const ContactInfo = {
 
 const Contact = () => (
 <div className={styles.ContactMain}>
-    <h3 className={styles.Idtab}>Contact Info</h3>
+    <h2 className={styles.Idtab}>Contact Info</h2>
     <img src={ContactInfo.picture} alt="avator" className={styles.profilePic}></img>
     <div className={styles.ContactSec}> Phone Number: {ContactInfo.number}</div>
     <div className={styles.ContactSec}>Email: {ContactInfo.email}</div>

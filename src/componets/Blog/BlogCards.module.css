@@ -7,22 +7,27 @@
   margin-left: 10px;
   background-color: #202020;
   color: white;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #2E4053;
   }
   
   .BlogDes {
-    background-color: #000000;
-    color: white;
+    background-color: #C0C0C0 ;
+    color: black;
+    font-weight: bold;
     flex-direction: row;
     text-align: center;
     width: 50%;
     margin: auto;
     padding: 3px;
+    margin-bottom: 10px;
   }
 
   .idTab {
-    color: #7B0099;
-    padding: 0%;
-    margin: 0%;
+    color: #2E86C1 ;
+    font-weight: bold;
+    margin-top: 5px;
   }
 
   .ImgBlog {
