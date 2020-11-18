@@ -33,4 +33,8 @@
   .ImgBlog {
     width: 500px;
     height: 300px;
+    border-left: 10px;
+    border-right: 10px;
+    border-style: solid;
+    border-color: #202020;
   }
