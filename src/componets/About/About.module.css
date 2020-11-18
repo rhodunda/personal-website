@@ -13,13 +13,14 @@
   border-color: #2E4053;
   }
   .AboutSec {
-    background-color: #000000;
+    background-color: #424949;
     color: white;
     flex-direction: column;
     width: 30%;
     margin: auto;
     padding: 3px;
     text-align: center;
+    
   }
 
   .Intrest {
@@ -30,6 +31,10 @@
   .Description {
     background-color: #D0D3D4 ;
     color: black;
+    border-left: 10px;
+    border-right: 10px;
+    border-style: solid;
+    border-color: #202020;
   }
 
 
