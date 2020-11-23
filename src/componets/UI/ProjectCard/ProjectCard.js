@@ -22,7 +22,7 @@ return (
         <Button 
         link={props.changed} 
         disabled={!props.disabledCheck}
-         >Link to Website</Button>
+         >{props.changed ? ' link to website' : 'link unavailable' } </Button>
     </div>
     )
 
