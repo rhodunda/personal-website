@@ -1,32 +1,35 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
+import styles from './ImageCarousel.module.css'
 
 const carousel = (props) => {
 
 return (
-    <Carousel>
-  <Carousel.Item>
+    <Carousel
+    interval={null}>
+  <Carousel.Item
+  className={styles.carousel}
+  >
     <img
-      className="d-block w-100"
+      className= {styles.img}
       src={props.image1}
       alt="First slide"
-      interval= 'null'
     />
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item 
+ >
     <img
       className="d-block w-100"
       src={props.image2}
       alt="Third slide"
-      interval= 'null'
     />
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item
+ >
     <img
       className="d-block w-100"
       src={props.image3}
       alt="Third slide"
-      interval= 'null'
     />
   </Carousel.Item>
 </Carousel>
