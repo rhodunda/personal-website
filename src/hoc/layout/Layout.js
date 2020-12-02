@@ -24,7 +24,7 @@ class Layout extends Component {
                 <div className={styles.format}>
                     <GitHub/>
                     <Contact/>
-                    <Picture/>
+                    {/* <Picture/> */}
                 </div>
                 <About/>
                 </main>
