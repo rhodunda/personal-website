@@ -6,7 +6,7 @@ import styles from './Blogs.module.css'
 import BlogCards from '../../componets/Blog/BlogCards'
 
 
-
+// should update to include react hooks
 class Blogs extends Component {
 
     componentDidMount() {
